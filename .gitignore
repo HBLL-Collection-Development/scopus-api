@@ -6,6 +6,7 @@
 
 ### Config file
 config.yml
+Config.php
 
 ### Test file
 index.php
