@@ -1,0 +1,22 @@
+{
+  "name": "hbll-collection-development/scopus-api",
+  "description": "Unofficial PHP SDK for the Scopus API",
+  "homepage": "https://github.com/hbll-collection-development/scopus-api",
+  "license": "MIT",
+  "autoload": {
+    "psr-0": {
+      "Scopus": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jared Howland",
+      "homepage": "http://jaredhowland.com",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/guzzle": "^6.0"
+  }
+}

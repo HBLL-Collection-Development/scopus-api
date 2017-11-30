@@ -1,0 +1,11 @@
+### PhpStorm
+.idea/
+
+### Composer
+/vendor/
+
+### Config file
+config.yml
+
+### Test file
+index.php
