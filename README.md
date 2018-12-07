@@ -15,7 +15,7 @@ Implements the following Scopus APIs as documented here: https://dev.elsevier.co
 9. Serial Title Metadata
 10. Subject Classifications
 
-Currently, it only searches the APIs and returns the `JSON`. Future versions will implement parsing and getting data from the JSON.
+Currently, it only searches the APIs and returns the `JSON` (or `XML` upon request). Future versions will implement parsing and getting data from the `JSON`.
 
 ## Installation
 Using Composer:
