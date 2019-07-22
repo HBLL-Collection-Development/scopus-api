@@ -1,6 +1,6 @@
-[![Total Downloads](https://poser.pugx.org/hbll-collection-development/scopus-api/downloads)](https://packagist.org/packages/hbll-collection-development/scopus-api)
-[![Latest Stable Version](https://poser.pugx.org/hbll-collection-development/scopus-api/v/stable)](https://packagist.org/packages/hbll-collection-development/scopus-api)
-[![License](https://poser.pugx.org/hbll-collection-development/scopus-api/license)](https://packagist.org/packages/hbll-collection-development/scopus-api)
+[![Total Downloads](https://poser.pugx.org/hbll-collection-development/scopus-api/downloads?format=flat-square)](https://packagist.org/packages/hbll-collection-development/scopus-api)
+[![Latest Stable Version](https://poser.pugx.org/hbll-collection-development/scopus-api/v/stable?format=flat-square)](https://packagist.org/packages/hbll-collection-development/scopus-api)
+[![License](https://poser.pugx.org/hbll-collection-development/scopus-api/license?format=flat-square)](https://packagist.org/packages/hbll-collection-development/scopus-api)
 
 # Unofficial PHP SDK for Scopus API
 
