@@ -1,3 +1,7 @@
+[![Total Downloads](https://poser.pugx.org/hbll-collection-development/scopus-api/downloads)](https://packagist.org/packages/hbll-collection-development/scopus-api)
+[![Latest Stable Version](https://poser.pugx.org/hbll-collection-development/scopus-api/v/stable)](https://packagist.org/packages/hbll-collection-development/scopus-api)
+[![License](https://poser.pugx.org/hbll-collection-development/scopus-api/license)](https://packagist.org/packages/hbll-collection-development/scopus-api)
+
 # Unofficial PHP SDK for Scopus API
 
 ## Introduction
