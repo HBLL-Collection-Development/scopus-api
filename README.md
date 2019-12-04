@@ -1,5 +1,5 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/hbll-collection-development/scopus-api.svg?color=blue&style=flat-square)](https://packagist.org/packages/hbll-collection-development/scopus-api)
-[![Packagist](https://img.shields.io/packagist/v/jaredhowland/contacts.svg?style=flat-square)](https://packagist.org/packages/hbll-collection-development/scopus-api)
+[![Packagist](https://img.shields.io/packagist/v/hbll-collection-development/scopus-api.svg?style=flat-square)](https://packagist.org/packages/hbll-collection-development/scopus-api)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
 # Unofficial PHP SDK for Scopus API
