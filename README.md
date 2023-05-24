@@ -28,7 +28,7 @@ Using Composer:
 
 Or add the following to your `composer.json` file:
 
-```
+```json
 "require": {
     "hbll-collection-development/scopus-api": "^1.0"
 }
@@ -38,7 +38,7 @@ Or add the following to your `composer.json` file:
 
 For all API calls, you will need to include the Composer autoload file:
 
-```
+```php
 require_once 'path/to/vendor/autoload.php';
 ```
 
@@ -50,7 +50,7 @@ Method names mirror the names of the query parameters as outlined in the API doc
 
 API Documentation: https://api.elsevier.com/documentation/AffiliationSearchAPI.wadl
 
-```
+```php
 $affiliationSearch = new \Scopus\AffiliationSearch('API-KEY');
 
 $results = $affiliationSearch
@@ -61,7 +61,7 @@ $results = $affiliationSearch
 
 If you want `XML` instead, you can do the following:
 
-```
+```php
 $results = $affiliationSearch
          ->query('AFFIL(Brigham Young University)')
          ->count(1)
@@ -152,7 +152,7 @@ Example `JSON` response:
 
 API Documentation: https://api.elsevier.com/documentation/AuthorSearchAPI.wadl
 
-```
+```php
 $authorSearch = new \Scopus\AuthorSearch('API-KEY');
 
 $results = $authorSearch
@@ -258,7 +258,7 @@ Example `JSON` response:
 
 API Documentation: https://api.elsevier.com/documentation/ScopusSearchAPI.wadl
 
-```
+```php
 $scopusSearch = new \Scopus\ScopusSearch('API-KEY');
 
 $results = $scopusSearch
@@ -366,7 +366,7 @@ Example `JSON` response:
 
 API Documentation: https://api.elsevier.com/documentation/AbstractRetrievalAPI.wadl
 
-```
+```php
 $abstractRetrieval = new \Scopus\AbstractRetrieval('SCOPUS-ID', 'scopusId', 'API-KEY');
 
 $results = $abstractRetrieval
@@ -376,7 +376,7 @@ $results = $abstractRetrieval
 
 Other options include:
 
-```
+```php
 $abstractRetrieval = new \Scopus\AbstractRetrieval('EID', 'eid', 'API-KEY');
 $abstractRetrieval = new \Scopus\AbstractRetrieval('DOI', 'doi', 'API-KEY');
 $abstractRetrieval = new \Scopus\AbstractRetrieval('PII', 'pii', 'API-KEY');
@@ -386,7 +386,9 @@ $abstractRetrieval = new \Scopus\AbstractRetrieval('PUI', 'pui', 'API-KEY');
 
 For example:
 
-`$abstractRetrieval = new \Scopus\AbstractRetrieval('85028623301', 'scopusId', 'API-KEY');`
+```php
+$abstractRetrieval = new \Scopus\AbstractRetrieval('85028623301', 'scopusId', 'API-KEY');
+```
 
 Example `JSON` response:
 
