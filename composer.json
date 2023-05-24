@@ -4,19 +4,20 @@
   "homepage": "https://github.com/hbll-collection-development/scopus-api",
   "license": "MIT",
   "autoload": {
-    "psr-0": {
-      "Scopus": "src"
+    "psr-4": {
+      "Scopus\\": "src"
     }
   },
   "authors": [
     {
       "name": "Jared Howland",
-      "homepage": "http://jaredhowland.com",
+      "homepage": "https://www.jaredhowland.com",
       "role": "developer"
     }
   ],
   "require": {
     "php": ">=7.0",
-    "guzzlehttp/guzzle": "^6.0"
+    "guzzlehttp/guzzle": "^7.0",
+    "symfony/yaml": "^6.2"
   }
 }

@@ -83,6 +83,7 @@ class Scopus
     protected $view = [];
     protected $facets = [];
     protected $subj = [];
+    protected $subjCode = [];
     protected $content = [];
     protected $suppressNavLinks = [];
     protected $field = [];
@@ -201,6 +202,13 @@ class Scopus
     public function subj($subj)
     {
         $this->subj = ['subj' => $subj];
+
+        return $this;
+    }
+
+    public function subjCode($subjCode)
+    {
+        $this->subjCode = ['subjCode' => $subjCode];
 
         return $this;
     }

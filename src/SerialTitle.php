@@ -6,7 +6,7 @@
  *
  * @author  Jared Howland <scopus@jaredhowland.com>
  *
- * @version 2017-11-29
+ * @version 2023-05-24
  *
  * @since   2017-11-29
  */
@@ -48,13 +48,6 @@ class SerialTitle extends Scopus
         return $this;
     }
 
-    public function isValidIssn($issn)
-    {
-        $validate = new \Scopus\Validators\IssnValidator;
-
-        return $validate->validate($issn);
-    }
-
     public function pub($pub)
     {
         $this->pub = ['pub' => $pub];
@@ -71,10 +64,17 @@ class SerialTitle extends Scopus
 
     public function search()
     {
-        $search = array_merge($this->httpAccept, $this->access_token, $this->insttoken, $this->reqId, $this->ver,
+        $search = array_merge($this->httpAccept, $this->access_token, $this->insttoken,         $this->reqId, $this->ver,
             $this->start, $this->count, $this->view, $this->field, $this->title,
-            $this->issn, $this->pub, $this->subj, $this->content, $this->date, $this->oa);
+            $this->issn, $this->pub, $this->subj, $this->subjCode, $this->content, $this->date, $this->oa);
 
         return $this->getJson(self::SERIAL_TITLE, $search);
+    }
+
+    private function isValidIssn($issn)
+    {
+        $validate = new \Scopus\Validators\IssnValidator;
+
+        return $validate->validate($issn);
     }
 }

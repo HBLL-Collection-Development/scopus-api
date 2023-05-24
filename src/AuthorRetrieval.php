@@ -56,4 +56,3 @@ class AuthorRetrieval extends Scopus
         return $this->getJson(self::AUTHOR_RETRIEVAL, $search);
     }
 }
-?>
