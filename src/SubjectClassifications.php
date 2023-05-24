@@ -11,14 +11,14 @@
  * @since   2017-11-30
  */
 
-namespace Scopus\Search;
+namespace Scopus;
 
 use Exception;
 
 /**
  * SubjectClassifications Class
  */
-class SubjectClassifications extends \Scopus\Scopus
+class SubjectClassifications extends Scopus
 {
     private $url;
 

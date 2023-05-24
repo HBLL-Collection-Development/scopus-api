@@ -71,7 +71,7 @@ $results = $affiliationSearch
 
 Example `JSON` response:
 
-```
+```json
 {
   "search-results": {
     "opensearch:totalResults": "992",
@@ -162,7 +162,7 @@ $results = $authorSearch
 
 Example `JSON` response:
 
-```
+```json
 {
   "search-results": {
     "opensearch:totalResults": "1",
@@ -268,7 +268,7 @@ $results = $scopusSearch
 
 Example `JSON` response:
 
-```
+```json
 {
   "search-results": {
     "opensearch:totalResults": "432",
@@ -390,7 +390,7 @@ For example:
 
 Example `JSON` response:
 
-```
+```json
 {
   "abstracts-retrieval-response": {
     "coredata": {

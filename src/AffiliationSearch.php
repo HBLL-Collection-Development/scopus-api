@@ -11,12 +11,12 @@
  * @since   2017-11-30
  */
 
-namespace Scopus\Parsers;
+namespace Scopus;
 
 /**
  * AffiliationSearch Class
  */
-class AffiliationSearch extends \Scopus\Scopus
+class AffiliationSearch extends Scopus
 {
     public function __construct($apiKey = null, $timeout = null)
     {

@@ -11,12 +11,12 @@
  * @since   2017-11-29
  */
 
-namespace Scopus\Parsers;
+namespace Scopus;
 
 /**
  * AuthorRetrieval Class
  */
-class AuthorRetrieval extends \Scopus\Scopus
+class AuthorRetrieval extends Scopus
 {
     private $eid = [];
     private $author_id = [];
@@ -56,4 +56,3 @@ class AuthorRetrieval extends \Scopus\Scopus
         return $this->getJson(self::AUTHOR_RETRIEVAL, $search);
     }
 }
-?>
